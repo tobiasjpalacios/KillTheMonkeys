@@ -75,5 +75,7 @@ pilas.tareas.agregar(1, crear_mono)
 #pilas.mundo.agregar_tarea(1, crear_mono) <-- sintaxis vieja
 
 # comentario de prueba
+# mas comentarios de pruebas
+
 # Arrancar el juego
 pilas.ejecutar()
