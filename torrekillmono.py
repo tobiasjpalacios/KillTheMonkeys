@@ -67,13 +67,13 @@ def crear_mono():
         return True
 
 
-# Añadir la torreta del jugador
+# Añadir la torreta del jugador 
 
 torreta = pilas.actores.Torreta(enemigos=monos, cuando_elimina_enemigo=mono_destruido)
 
 pilas.tareas.agregar(1, crear_mono)
 #pilas.mundo.agregar_tarea(1, crear_mono) <-- sintaxis vieja
 
-
+# comentario de prueba
 # Arrancar el juego
 pilas.ejecutar()
